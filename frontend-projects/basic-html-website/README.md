@@ -1,7 +1,7 @@
 # 🌐 Basic HTML Website
 Create simple HTML only website with multiple pages.
 
-## 📂 Project Structure
+## 📝 Project Structure
 
 - Home page > index.html
 - Projects page > projects.html
