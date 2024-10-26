@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  border: 2px solid black;
+  padding: 40px;
+  border-radius: 16px;
+  max-width: 750px;
+  width: 100%;
+  margin: 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.subtitle {
+  color: #888;
+  margin-bottom: 40px;
+}
+
+.timeline {
+  padding-left: 60px;
+  margin-bottom: 30px;
+}
+
+.item {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.item:hover {
+  background-color: lightgray;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.item:first-child .date,
+.item:first-child .event {
+  padding-top: 50px;
+}
+
+.item:last-child .date,
+.item:last-child .event {
+  padding-bottom: 50px;
+}
+
+.circle {
+  position: absolute;
+  left: 175px;
+  width: 15px;
+  height: 15px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.item:first-child .circle {
+  top: 50px;
+}
+
+.item:last-child .circle {
+  bottom: 50px;
+}
+
+.date {
+  border-right: 1px solid black;
+  text-align: center;
+  color: #888;
+  padding: 20px 20px;
+  width: 30%;
+}
+
+.event {
+  border-left: 1px solid black;
+  text-align: left;
+  padding: 20px 30px;
+  width: 70%;
+}
+
+.complete-changelog {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 8px;
+}
+
+.complete-changelog:hover {
+  background-color: #555;
+}
+
+/* This is for Tablet */
+@media (max-width: 800px) {
+  .timeline {
+    padding-left: 20px;
+  }
+
+  .circle {
+    left: 180px;
+  }
+}
+
+/* This is for Mobile */
+@media (max-width: 600px) {
+  .timeline {
+    padding-left: 30px;
+  }
+
+  .item {
+    flex-direction: column-reverse;
+  }
+
+  .item:hover {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .item:first-child .date {
+    padding-top: 0;
+  }
+
+  .item:first-child .event {
+    padding-top: 40px;
+  }
+
+  .item:last-child .date {
+    padding-bottom: 10px;
+  }
+  .item:last-child .event {
+    padding-bottom: 0;
+  }
+
+  .circle {
+    left: -5px;
+    top: 13px;
+  }
+
+  .item:first-child .circle {
+    top: 45px;
+  }
+
+  .date {
+    border-right: none;
+    border-left: 2px solid black;
+    padding: 10px 20px;
+    width: 100%;
+    text-align: right;
+  }
+
+  .event {
+    border-left: 2px solid black;
+    text-align: left;
+    padding: 10px 30px;
+    width: 100%;
+  }
+}
