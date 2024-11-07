@@ -1,0 +1,60 @@
+body {
+  font-family: "Lucida Sans Unicode", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100%;
+  max-width: 550px;
+}
+
+header {
+  padding: 0 10px;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+.accordion {
+  position: relative;
+}
+
+.accordion-item {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.accordion-btn {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 16px;
+  text-align: left;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.accordion-item i {
+  position: absolute;
+  right: 20px;
+}
+
+.accordion-content {
+  display: none;
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.accordion-content.active {
+  display: block;
+}
