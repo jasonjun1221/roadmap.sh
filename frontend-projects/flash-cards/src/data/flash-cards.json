@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What is the difference between var, let, and const?",
+    "answer": "In JavaScript, var is function-scoped and can be redeclared; let and const are block-scoped, with let allowing re-assignment and const preventing it. However, const objects can have their contents modified."
+  },
+  {
+    "question": "What is the difference between 'null' and 'undefined' in JavaScript?",
+    "answer": "'null' is a value assigned to a variable indicating no value, while 'undefined' means a variable has been declared but not assigned any value."
+  },
+  {
+    "question": "What is the purpose of the 'this' keyword in JavaScript?",
+    "answer": "'this' refers to the context in which a function is called, typically pointing to the object the function is a method of."
+  },
+  {
+    "question": "What are JavaScript promises?",
+    "answer": "A promise represents the eventual completion or failure of an asynchronous operation, allowing chaining of '.then()' or handling with '.catch()'."
+  },
+  {
+    "question": "What is event delegation in JavaScript?",
+    "answer": "Event delegation involves attaching a single event listener to a parent element to manage events for multiple child elements."
+  },
+  {
+    "question": "What is a closure in JavaScript?",
+    "answer": "A closure is a function that retains access to its lexical scope, even after the outer function has finished executing."
+  },
+  {
+    "question": "What does '===' mean in JavaScript?",
+    "answer": "'===' is the strict equality operator, which checks both value and type, unlike '==' which performs type coercion before comparison."
+  },
+  {
+    "question": "What is the 'spread' operator in JavaScript?",
+    "answer": "The spread operator '...' is used to unpack elements from an array or object, allowing for easier manipulation and merging."
+  },
+  {
+    "question": "What are template literals in JavaScript?",
+    "answer": "Template literals are string literals enclosed by backticks (`) that allow interpolation of expressions using '${}' syntax."
+  },
+  {
+    "question": "What is destructuring in JavaScript?",
+    "answer": "Destructuring is a feature that allows extracting values from arrays or objects and assigning them to variables in a concise syntax."
+  },
+  {
+    "question": "What is the difference between 'map()' and 'forEach()' in JavaScript?",
+    "answer": "Both iterate over arrays, but 'map()' creates a new array with the results, while 'forEach()' executes a function on each element without returning anything."
+  },
+  {
+    "question": "What is a JavaScript module?",
+    "answer": "A module in JavaScript is a self-contained unit of code that can export and import functionalities between different parts of an application."
+  },
+  {
+    "question": "What does the 'setTimeout()' function do in JavaScript?",
+    "answer": "The 'setTimeout()' function delays the execution of a function by a specified number of milliseconds."
+  },
+  {
+    "question": "What are arrow functions in JavaScript?",
+    "answer": "Arrow functions provide a shorter syntax for writing functions and do not have their own 'this', inheriting it from the surrounding context."
+  },
+  {
+    "question": "What is a 'callback' function in JavaScript?",
+    "answer": "A callback function is a function passed as an argument to another function, to be executed later when a certain task is complete."
+  },
+  {
+    "question": "What is the 'typeof' operator in JavaScript?",
+    "answer": "'typeof' is an operator used to determine the type of a variable or expression in JavaScript, returning a string indicating its type."
+  },
+  {
+    "question": "What is the difference between 'localStorage' and 'sessionStorage' in JavaScript?",
+    "answer": "Both are web storage APIs, but 'localStorage' persists data even after the browser is closed, while 'sessionStorage' only stores data for the duration of the session."
+  },
+  {
+    "question": "What is the 'reduce()' method in JavaScript?",
+    "answer": "The 'reduce()' method applies a function to each element in an array, accumulating a single result, such as a sum or an object."
+  },
+  {
+    "question": "What is the purpose of the 'call()' and 'apply()' methods in JavaScript?",
+    "answer": "'call()' and 'apply()' are methods used to invoke a function with a specified 'this' context and arguments. The difference is that 'apply()' accepts arguments as an array, while 'call()' uses individual arguments."
+  },
+  {
+    "question": "What is the 'async/await' pattern in JavaScript?",
+    "answer": "'async/await' is syntactic sugar that makes working with promises easier, where 'async' defines a function that returns a promise, and 'await' pauses execution until the promise is resolved."
+  }
+]
