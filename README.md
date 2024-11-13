@@ -6,6 +6,7 @@
 - 🍪 Cookie Consent > https://roadmap.sh/projects/cookie-consent
 - 🖥️ Changelog component > https://roadmap.sh/projects/changelog-component
 - 📱 Accordion > https://roadmap.sh/projects/accordion
+- 📰 Flash Cards > https://roadmap.sh/projects/flash-cards
 
 ## 🗂️ Backend Projects
 
