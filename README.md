@@ -7,6 +7,7 @@
 - 🖥️ Changelog component > https://roadmap.sh/projects/changelog-component
 - 📱 Accordion > https://roadmap.sh/projects/accordion
 - 📰 Flash Cards > https://roadmap.sh/projects/flash-cards
+- 💬 Restricted Textarea > https://roadmap.sh/projects/restricted-textarea
 
 ## 🗂️ Backend Projects
 
