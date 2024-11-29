@@ -1,4 +1,4 @@
-# 🍪 Restricted Textarea
+# 💬 Restricted Textarea
 
 A textarea with live character count and a max character limit.
 
