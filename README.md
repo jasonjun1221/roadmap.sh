@@ -8,6 +8,7 @@
 - 📱 Accordion > https://roadmap.sh/projects/accordion
 - 📰 Flash Cards > https://roadmap.sh/projects/flash-cards
 - 💬 Restricted Textarea > https://roadmap.sh/projects/restricted-textarea
+- 📑 Tooltip UI > https://roadmap.sh/projects/tooltip-ui
 
 ## 🗂️ Backend Projects
 
