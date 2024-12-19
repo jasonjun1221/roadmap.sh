@@ -9,6 +9,7 @@
 - 📰 Flash Cards > https://roadmap.sh/projects/flash-cards
 - 💬 Restricted Textarea > https://roadmap.sh/projects/restricted-textarea
 - 📑 Tooltip UI > https://roadmap.sh/projects/tooltip-ui
+- 📷 Image Grid Layout > https://roadmap.sh/projects/image-grid
 
 ## 🗂️ Backend Projects
 
