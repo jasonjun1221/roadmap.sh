@@ -1,0 +1,66 @@
+[
+  {
+    "title": "My First Blog Post",
+    "content": "This is the content of my first blog post.",
+    "category": "Technology",
+    "tags": ["Tech", "Programming"],
+    "createdAt": "2021-09-01T12:00:00Z",
+    "updatedAt": "2021-09-01T12:00:00Z"
+  },
+  {
+    "title": "Understanding Artificial Intelligence",
+    "content": "Artificial Intelligence (AI) is transforming industries with its applications in automation, decision-making, and more.",
+    "category": "Technology",
+    "tags": ["AI", "Machine Learning", "Innovation"],
+    "createdAt": "2022-02-14T09:00:00Z",
+    "updatedAt": "2022-02-14T09:00:00Z"
+  },
+  {
+    "title": "A Beginner's Guide to Python Programming",
+    "content": "Python is a versatile and beginner-friendly programming language. In this guide, we'll cover the basics of Python syntax and structure.",
+    "category": "Programming",
+    "tags": ["Python", "Tutorial", "Beginner"],
+    "createdAt": "2022-03-10T14:30:00Z",
+    "updatedAt": "2022-03-10T14:30:00Z"
+  },
+  {
+    "title": "Exploring Cloud Computing",
+    "content": "Cloud computing offers scalable and on-demand computing resources, enabling businesses to access services over the internet.",
+    "category": "Technology",
+    "tags": ["Cloud", "AWS", "Google Cloud"],
+    "createdAt": "2022-04-05T11:00:00Z",
+    "updatedAt": "2022-04-05T11:00:00Z"
+  },
+  {
+    "title": "The Rise of 5G Networks",
+    "content": "5G networks are set to revolutionize the way we connect and communicate, offering faster speeds and lower latency.",
+    "category": "Telecommunications",
+    "tags": ["5G", "Mobile", "Networking"],
+    "createdAt": "2023-06-18T16:15:00Z",
+    "updatedAt": "2023-06-18T16:15:00Z"
+  },
+  {
+    "title": "Explaining Blockchain Technology",
+    "content": "Blockchain is a decentralized digital ledger technology with vast applications, including cryptocurrencies, supply chain management, and more.",
+    "category": "Blockchain",
+    "tags": ["Blockchain", "Cryptocurrency", "Decentralization"],
+    "createdAt": "2023-08-10T13:00:00Z",
+    "updatedAt": "2023-08-10T13:00:00Z"
+  },
+  {
+    "title": "The Future of Web Development",
+    "content": "Web development is constantly evolving. This post explores the future trends and technologies shaping web development in 2025.",
+    "category": "Web Development",
+    "tags": ["Web Development", "JavaScript", "CSS"],
+    "createdAt": "2024-01-02T10:00:00Z",
+    "updatedAt": "2024-01-02T10:00:00Z"
+  },
+  {
+    "title": "Cybersecurity Best Practices for 2025",
+    "content": "With growing cyber threats, it’s crucial to adopt the latest cybersecurity practices. In this post, we discuss steps to secure your online presence.",
+    "category": "Security",
+    "tags": ["Cybersecurity", "Privacy", "Security Tips"],
+    "createdAt": "2024-12-25T08:45:00Z",
+    "updatedAt": "2024-12-25T08:45:00Z"
+  }
+]
